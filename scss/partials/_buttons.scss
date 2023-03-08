@@ -1,0 +1,7 @@
+$colorBtn:#0e6cff , #ff8700, #4caf50;
+
+@each $elem in $colorBtn {
+    .btn-#{$elem} {
+      background-color: $elem;
+    }
+  }

@@ -1,0 +1,34 @@
+//la Map è una lista di elementi con coppie chiave-valore, può accettare variabili come valore
+$sizes: (
+  xs: 10px,
+  sm: 14px,
+  md: 50px,
+  lg: 96px,
+  xl: 200px,
+  xxl: 400px
+);
+
+// usando una mappa come input occorrerà specificare due variabili per key e value
+@each $key, $value in $sizes {
+  .padding-inline-#{$key} {
+    padding-inline: $value;
+  }
+}
+
+@each $key, $value in $sizes {
+  .padding-block-#{$key} {
+    padding-block: $value;
+  }
+}
+
+@each $key, $value in $sizes {
+    .margin-inline-#{$key} {
+      padding-inline: $value;
+    }
+  }
+  
+  @each $key, $value in $sizes {
+    .margin-block-#{$key} {
+      padding-block: $value;
+    }
+  }
