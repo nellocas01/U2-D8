@@ -1,6 +1,34 @@
-*, *::before, *::after {
+.pulse {
+  animation-name: inline-uk3armg;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes inline-uk3armg {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+.btn-blue {
+  background-color: #0e6cff;
+}
+
+.btn-orange {
+  background-color: #ff8700;
+}
+
+.btn-green {
+  background-color: #4caf50;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}/*# sourceMappingURL=style.css.map */
+}
 
 h1,
 h2,
@@ -65,50 +93,49 @@ body {
 }
 
 .margin-inline-xs {
-  padding-inline: 10px;
+  margin-inline: 10px;
 }
 
 .margin-inline-sm {
-  padding-inline: 14px;
+  margin-inline: 14px;
 }
 
 .margin-inline-md {
-  padding-inline: 50px;
+  margin-inline: 50px;
 }
 
 .margin-inline-lg {
-  padding-inline: 96px;
+  margin-inline: 96px;
 }
 
 .margin-inline-xl {
-  padding-inline: 200px;
+  margin-inline: 200px;
 }
 
 .margin-inline-xxl {
-  padding-inline: 400px;
+  margin-inline: 400px;
 }
 
 .margin-block-xs {
-  padding-block: 10px;
+  margin-block: 10px;
 }
 
 .margin-block-sm {
-  padding-block: 14px;
+  margin-block: 14px;
 }
 
 .margin-block-md {
-  padding-block: 50px;
+  margin-block: 50px;
 }
 
 .margin-block-lg {
-  padding-block: 96px;
+  margin-block: 96px;
 }
 
 .margin-block-xl {
-  padding-block: 200px;
+  margin-block: 200px;
 }
 
 .margin-block-xxl {
-  padding-block: 400px;
-}
-
+  margin-block: 400px;
+}/*# sourceMappingURL=style.css.map */

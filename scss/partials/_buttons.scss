@@ -1,7 +1,12 @@
-$colorBtn:#0e6cff , #ff8700, #4caf50;
+  $colorBtn: (
+  blue: #0e6cff,
+  orange: #ff8700,
+  green: #4caf50
+);
 
-@each $elem in $colorBtn {
-    .btn-#{$elem} {
-      background-color: $elem;
-    }
+// usando una mappa come input occorrerà specificare due variabili per key e value
+@each $key, $value in $colorBtn {
+  .btn-#{$key} {
+    background-color: $value;
   }
+}

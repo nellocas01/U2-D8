@@ -1,0 +1,9 @@
+@mixin floating(){
+    border-radius: 40px;
+    box-shadow: darkgrey;
+    border-color: azure;
+}
+
+@mixin grid(){
+    display: flex;
+}

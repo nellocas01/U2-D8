@@ -22,13 +22,13 @@ $sizes: (
 }
 
 @each $key, $value in $sizes {
-    .margin-inline-#{$key} {
-      padding-inline: $value;
-    }
+  .margin-inline-#{$key} {
+    margin-inline: $value;
   }
-  
-  @each $key, $value in $sizes {
-    .margin-block-#{$key} {
-      padding-block: $value;
-    }
+}
+
+@each $key, $value in $sizes {
+  .margin-block-#{$key} {
+    margin-block: $value;
   }
+}

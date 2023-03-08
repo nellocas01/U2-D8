@@ -5,8 +5,3 @@
 @import "./partials/mixins";
 @import "./partials/reset";
 @import "./partials/spacing";
-
-
-*,*::before,*::after{
-    box-sizing: border-box;
-}
