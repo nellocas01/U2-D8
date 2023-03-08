@@ -1,3 +1,21 @@
+/*
+@keyframes hero-entrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-entrance {
+animation-name: hero-entrance;
+animation-duration: 1s;
+animation-timing-function: ease
+
+*/
 .btn-blue {
   background-color: #0e6cff;
 }
@@ -159,6 +177,9 @@ button:hover {
 .hero-image {
   width: 50%;
   float: right;
+  border-radius: 40px;
+  box-shadow: darkgrey;
+  border-color: azure;
 }
 
 .hero-image img {

@@ -6,6 +6,35 @@
 @import "./partials/reset";
 @import "./partials/spacing";
 
+header {
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  nav {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+
+      a {
+          text-decoration: none;
+          color: black;
+      }
+
+      .navImg {
+          height: 100%;
+          width: 30%;
+
+          img {
+              height: 100%;
+              width: 30%;
+              border-radius: 15px;
+          }
+      }
+  }
+}
+
 button {
     @include button-transform;
     
@@ -32,6 +61,7 @@ button {
   .hero-image {
     width: 50%;
     float: right;
+    @include floating($border-radius, $box-shadow, $border-color);
   }
   
   .hero-image img {
