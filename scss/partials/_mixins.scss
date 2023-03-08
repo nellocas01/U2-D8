@@ -7,3 +7,10 @@
 @mixin grid(){
     display: flex;
 }
+
+@mixin button-transform {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+  }
+  
+  

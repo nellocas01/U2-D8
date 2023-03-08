@@ -5,3 +5,48 @@
 @import "./partials/mixins";
 @import "./partials/reset";
 @import "./partials/spacing";
+
+button {
+    @include button-transform;
+    
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  .hero {
+    background-color: #f2f2f2;
+    background-image: url('https://picsum.photos/200/30');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 50%;
+    float: right;
+  }
+  
+  .hero-image img {
+    width: 100%;
+  }
+  
+  .grid {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 50px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+  }
+  

@@ -1,17 +1,3 @@
-.pulse {
-  animation-name: inline-uk3armg;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-@keyframes inline-uk3armg {
-  from {
-    background-color: yellow;
-  }
-  to {
-    background-color: red;
-  }
-}
-
 .btn-blue {
   background-color: #0e6cff;
 }
@@ -42,6 +28,13 @@ p {
 
 body {
   margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .padding-inline-xs {
@@ -138,4 +131,48 @@ body {
 
 .margin-block-xxl {
   margin-block: 400px;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+button:hover {
+  transform: scale(1.2);
+}
+
+.hero {
+  background-color: #f2f2f2;
+  background-image: url("https://picsum.photos/200/30");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero-image {
+  width: 50%;
+  float: right;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.grid {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 50px;
+}
+
+.grid-item img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
